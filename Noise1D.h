@@ -3,6 +3,7 @@
 //
 
 #pragma once
+#include <random>
 
 float interpolate(float v1, float v2, float blend) {
     return (v2 - v1) * blend + v1;
